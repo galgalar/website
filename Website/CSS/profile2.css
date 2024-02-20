@@ -1,0 +1,90 @@
+*{
+    font-family: 'Lexend Mega', sans-serif;
+    margin: 0;
+    color:black;
+    
+  }
+  body{
+    overflow: none;
+    background-size: cover; 
+    background-position: center;
+    background-blend-mode: multiply;
+    background-image: url(images/bgplain.jpg);
+    color:rgb(230, 243, 230);
+  }
+  h1{
+    display: inline-flex;
+    font-size:xx-large;
+    color: rgb(248, 250, 248);
+   
+  }
+  a{
+   text-decoration: none;
+   color: black;
+  }
+  ul{
+    list-style-type: none;
+    padding: 50px;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(69, 138, 92, 0.808);
+    background-image: url(images/headerbg.jpg);
+    background-position: center top;
+    background-size: cover;
+    color: rgb(248, 250, 248);
+  }
+
+  li{
+    float:right ;
+    font-weight: bold;
+  }
+  li a{
+    color: rgb(248, 250, 248);
+    display: block;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+.pic{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+main{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.skills{
+    padding-left: 20px;
+}
+#picture{
+    height:200px;
+    width:200px;
+    border-radius: 100px;
+    border-style: solid;
+}
+#footerprofile{
+    font-size: large;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+}
+.information{
+  padding-bottom: 50px;
+}
+.profilelabel{
+  text-align: center;
+}
+#profilecolor{
+  color: black;
+}
+#logo{
+  height: 50px;
+  width: 50px;
+}

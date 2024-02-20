@@ -1,0 +1,11 @@
+figure{
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+figure:hover{
+    transform: scale(1.1);
+   
+}

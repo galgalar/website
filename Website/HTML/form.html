@@ -1,0 +1,191 @@
+<!--Feedback-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Feedback</title>
+   <script defer src="../JS/form.js"></script>
+   <link rel="stylesheet" href="../CSS/form.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+   <nav>
+      <ul>
+         <a href="anotherhome.html" id="navigation">
+            <img id="logo" src="../images (1)/logo.png" alt="logo">
+            <h1>Ethereal Vision</h1>
+         </a>
+         <li><a href="form.html" id="navigation">Feedbacks</a></li>
+         <li><a href="prof.html" id="navigation">Profile</a></li>
+         <li><a href="popular.html" id="navigation">Products</a></li>
+         <li><a href="anotherabout.html" id="navigation">About Us</a></li>
+      </ul>
+   </nav>
+   <h3 id="descriptionForSurvey">Take the survey and leave a comment below to help us with future improvement.</h3>
+   <main>
+
+
+      <div>
+         <form id="form">
+            <fieldset class="fieldSet">
+             <legend>Customer Satisfaction Survey</legend>
+             
+            
+                  <table>
+                  <tr>
+                     <td><label for="fname"><b>Name</b></label></td>
+                     <td><label for="emailAdd"><b>Email Address</b></label></td>
+   
+                  </tr>
+                  <tr>
+                     <td><input type="text" name="firstname" id="fname" required /></td>
+                     <td><input type="text" name="emailAdd" id="emailAdd" required /></td>
+   
+                  </tr>
+                  <tr>
+                     <td><span id="errorMessage"></span></td>
+                     <td><span id="errorMessage2"></span></td>
+                  </tr>
+                  <tr>
+                     <td><label for="streetAdd"><b>Street Address</b></label></td>
+                     <td><label for="contact"><b>Contact Number</b></label></td>
+                  </tr>
+                  <tr>
+                     <td><input type="text" name="streetAdd" id="streetAdd" /></td>
+                     <td><input type="tel" name="contact" id="contact" /></td>
+                  </tr>
+                  <tr>
+                     <td><span id="errorMessage3"></span></td>
+                     <td><span id="errorMessage4"></span></td>
+                  </tr>
+   
+                  <tr>
+                     <td>
+                        <br>
+                        <label for="questionOne"><b>Do you recommend us to other customers?</b></label><br>
+                        <input type="radio" name="questionOne" id="questionOne" value="yes">Yes <br>
+                        <input type="radio" name="questionOne" id="questionOne" value="no">No <br>
+                        <input type="radio" name="questionOne" id="questionOne" value="Prefer">Prefer not to say
+                     </td>
+                  </tr>
+   
+                  <tr>
+                     <td>
+                        <br>
+                        <label for="questionTwo"><b>Where did you hear about us?</b></label>
+                     </td>
+   
+                  </tr>
+                  <tr>
+                     <td>
+                        <select name="questionTwo" id="hearAbout">
+                           <option id = "hearAbout" value="select">Please select</option>
+                           <option id = "hearAbout" value="Facebook">Facebook</option>
+                           <option id = "hearAbout" value="Instagram">Instagram</option>
+                           <option id = "hearAbout" value="Twitter">Twitter</option>
+                           <option id = "hearAbout" value="Tiktok">Tiktok</option>
+                           <option  id = "hearAbout" value="YouTube">YouTube</option>
+                        </select>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>
+                        <br>
+                        <label for="visit"><b>Was this your first time ordering from our shop?</b></label><br>
+                        <input type="radio" name="order" id="visit" value="yes">Yes <br>
+                        <input type="radio" name="order" id="visit" value="no">No <br>
+                        <input type="radio" name="order" id="visit" value="Prefer">Prefer not to say
+                     </td>
+                  </tr>
+               </table>
+               <br>
+               <p><b>How satisfied are you with our products?</b></p>
+               <table class="table">
+                  <tr id="table"><br>
+                     <th id="table"></th>
+                     <th id="table"><label for="veryUnSatisfied">Very Unsatisfied</label></th>
+                     <th id="table"><label for="unSatisfied">Unsatisfied</label></th>
+                     <th id="table"><label for="neutral">Neutral</label></th>
+                     <th id="table"><label for="satisfied">Satisfied</label></th>
+                     <th id="table"><label for="verySatisfied">Very Satisfied</label></th>
+                  </tr>
+                  <tr id="table">
+                     <td id="table"><label for="purchase">Purchase process</label></td>
+                     <td id="table"><input type="radio" name="purchase" id="purchase" value="Very Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="purchase" id="purchase " value="Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="purchase" id="purchase" value="Neutral"></td>
+                     <td id="table"><input type="radio" name="purchase" id="purchase" value="Satisfied"></td>
+                     <td id="table"><input type="radio" name="purchase" id="purchase" value="Very Satisfied"></td>
+   
+                  </tr>
+                  <tr id="table">
+                     <td id="table"><label for="customerService">Customer Service</label></td>
+                     <td id="table"><input type="radio" name="customerService" id="customerService" value="Very Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="customerService" id="customerService"  value="Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="customerService" id="customerService" value="Neutral"></td>
+                     <td id="table"><input type="radio" name="customerService" id="customerService" value="Satisfied"></td>
+                     <td id="table"><input type="radio" name="customerService" id="customerService" value="Very Satisfied"></td>
+                  </tr>
+                  <tr id="table">
+                     <td id="table"><label for="productQuality">Product Quality</label></td>
+                     <td id="table"><input type="radio" name="productQuality" id="productQuality" value="Very Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="productQuality" id="productQuality"  value="Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="productQuality" id="productQuality"  value="Neutral"></td>
+                     <td id="table"><input type="radio" name="productQuality" id="productQuality" value="Satisfied"></td>
+                     <td id="table"><input type="radio" name="productQuality" id="productQuality" value="Very Satisfied"></td>
+                  </tr>
+                  <tr id="table">
+                     <td id="table"><label for="price">Price</label></td>
+                     <td id="table"><input type="radio" name="price" id="price" value="Very Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="price" id="price" value="Unsatisfied"></td>
+                     <td id="table"><input type="radio" name="price" id="price" value="Neutral"></td>
+                     <td id="table"><input type="radio" name="price" id="price" value="Satisfied"></td>
+                     <td id="table"><input type="radio" name="price" id="price" value="Very Satisfied"></td>
+                  </tr>
+               </table>
+               <br>
+               <p><b>Tell us your thoughts and recommendations!</b></p><br>
+               <textarea name="commentOne" id="commentOne" cols="50" rows="10"></textarea><br>
+               <p><b>What product and/or service characteristics do you like?</b></p><br>
+               <textarea name="commentTwo" id="commentTwo" cols="50" rows="10"></textarea><br>
+               <p><b>What product and/or service characteristics do you dislike?</b></p><br>
+               <textarea name="commentThree" id="commentThree" cols="50" rows="10"></textarea><br>
+            </fieldset>
+
+            <div class="submit">
+               <input type="submit" name="submit" id="submit" value="Submit Response" onclick="submitForm()" />
+                <!-- <button type="submit">Submit Response</button>  -->
+            </div>
+
+         </form>
+      </div>
+
+       <table>
+      <!-- <div id="table-container">
+         <table id="formTable">
+            <thead>
+               <tr>
+                  <th>Fullname</th>
+                  <th>Email Address</th>
+                  <th>Street Address</th>
+               </tr>
+            </thead>
+            <tbody>
+               <Table body will be populated dynamically>
+            </tbody>
+         </table>
+      </div> -->
+
+   </main>
+   <footer>
+      <p id="footerproduct">2023&copy; Alivio, S., Cabahug, M., Canono, M., Galagar, G. </p>
+   </footer>
+</body>
+
+</html>

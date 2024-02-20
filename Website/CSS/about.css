@@ -1,0 +1,169 @@
+/* About CSS */
+
+*{
+    font-family: 'Lexend Mega', sans-serif;
+    margin: 0;
+    color:black;
+    
+    
+  }
+  body{
+    overflow: none;
+    background-image: url(images/bg.jpg);
+    background-size: cover; 
+
+    background-blend-mode: multiply;
+    color:rgb(230, 243, 230);
+  }
+  h1{
+    display: inline-flex;
+    font-size:xx-large;
+    color: rgb(248, 250, 248);
+   
+  }
+  a{
+   text-decoration: none;
+   color: black;
+  }
+  ul{
+    list-style-type: none;
+    padding: 50px;
+    margin: 0;
+    overflow: hidden;
+    background-color:rgba(56, 80, 56, 0.432);
+    color: rgb(248, 250, 248);
+  }
+
+  li{
+    float:right ;
+    font-weight: bold;
+  }
+  li a{
+    color: rgb(248, 250, 248);
+    display: block;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+#aboutfont{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color:rgb(230, 243, 230);
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.paragraph1{
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 500px;
+  text-align: justify;
+
+}
+#introduction{
+  color:rgb(230, 243, 230);
+  
+}
+.ourTeam{
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+  
+}
+
+figure{
+  padding-left: 40px;
+  padding-right:40px;
+  
+}
+.teamPicture{
+  display:inline-flex;
+  
+}
+#teamPicture{
+  width: 200px;
+  height: 200px;
+  border-radius: 400px;
+}
+.content{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.missViss{
+  padding-top: 500px;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#commissionfont{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  color:rgb(230, 243, 230);
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.paragraph2{
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-right: 500px;
+  text-align: justify;
+
+}
+.positionOfCommission{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+#footeraboutus{
+  font-size: large;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  padding-top: 260px;
+  color: rgb(248, 250, 248);
+  text-align: center;
+}
+#introduction2{
+  color:rgb(230, 243, 230);
+  
+}
+#buttonLogout{
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  text-align: justify;
+  padding: 5px 10px;
+  background-color: #6b1d1d;
+  color: white;
+  border: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background color 0.3s ease, color 0.3 ease;
+  display: flex;
+  align-items: center;
+}
+#buttonLogout:hover{
+  background-color: #b23b3b;
+  color: white;
+}
+button{
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(132, 182, 132);
+}
+.contactus{
+  padding-top: 20px;
+  padding-left: 200px;
+}
+button:hover{
+  background-color:rgba(47, 71, 47, 0.432);
+}
+#logo{
+  height: 50px;
+  width: 50px;
+}
+
+
+

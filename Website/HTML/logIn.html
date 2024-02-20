@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/logIn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet" />
+
+    <title>Log in</title>
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="number" placeholder="Age">
+                <input type="text" placeholder="Address">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <input type="tel" placeholder="Mobile number">
+                <button>Register</button>
+                <div class="social-container"></div>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form action="#" onsubmit="return auth()">
+                <h1>Log in</h1>
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+                    <!-- <div class="pass-link">
+                        <a href="#">Forgot password</a>
+                    </div> -->
+                </div>
+                <input type="submit" value="Login" class="button">
+                <div class="social-container"></div>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Welcome</h1>
+                    <p>Login here and have fun</p>
+                    <button class="ghost" id="login">Login</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h3 class="title">Don't have an account yet?</h3>
+                    <button class="ghost" id="register">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/logIn.js"></script>
+</body>
